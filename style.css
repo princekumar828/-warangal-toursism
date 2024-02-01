@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+
+}
+
+html,
+body {
+  height: 100%;
+  background-color: rgb(89, 73, 46);
+  ;
+}
+
+
+
+.main {
+  margin: auto;
+  max-width: 1200px;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./main.png);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+
+.main-list {
+  float: right;
+  font-variant: small-caps;
+  list-style-type: none;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+
+.main-list-item {
+  display: inline-block;
+}
+
+.main-list-item a {
+  text-decoration: none;
+  color: white;
+  border: 1px solid transparent;
+  padding: 5px 20px;
+  transition: 0.7s ease;
+}
+
+.main-list-item a:hover {
+  background-color: rgb(89, 73, 46);
+}
+
+.active {
+  background-color: rgb(89, 73, 46);
+}
+
+
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.heading {
+  color: white;
+  font-size: 4vw;
+  font-variant: small-caps;
+  padding-left: 10px;
+}
+
+.page-wrapper {
+  min-height: 100%;
+}
+
+.history {
+  color: white;
+}
+
+.history-para {
+  font-size: large;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+.pp {
+  font-family: "Poppins", sans-serif;
+}
+
+.btn {
+  background-color: #04AA6D;
+  border: solid white;
+  color: white;
+  background-color: rgb(89, 73, 46);
+  padding: 15px;
+  text-align: center;
+  margin: 10px;
+  font-family: "Poppins";
+
+  display: inline-block;
+  font-size: 16px;
+}
+
+.subHead {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  text-shadow: 3px 3px 5px black;
+  font-size: 3vw;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.subText {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  padding: 5px;
+
+
+
+}
+
+.imgBlock {
+  margin: 10px;
+  margin-top: 30px;
+  box-shadow: 3px 3px 5px white;
+  padding: 10px;
+  border-left: solid white;
+  border-top: solid white;
+  text-align: center;
+  border-radius: 20px;
+  width: 48%;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+
+}
+.imgBlock2 {
+ 
+  
+  padding: 10px;
+  border: solid white;
+  text-align: center;
+  width: 48%;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+
+}
+
+.list_all {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+
+
+
+.imgHri {
+  width: 400px;
+  height: 300px;
+  border-radius: 20px;
+
+}
